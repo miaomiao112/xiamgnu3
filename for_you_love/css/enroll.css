@@ -1,0 +1,295 @@
+.margin{
+	width:1000px;
+	margin:0 auto;
+}
+
+body{#f1f1f1;}
+#tou{
+	height:64px;
+}
+.logo img{
+	margin-top: 14px;
+	margin-left: 17px;
+	float:left;
+}
+.fr{
+	float:right;
+}
+.drmumber_sec{
+	margin-top:15px;
+	margin-left:20px;
+}
+.drmumber-left{
+	margin-top: 7px;
+	line-height: 20px;
+	height:20px;
+}
+.drmumber-left a{
+	font-size: 12px;
+	color:#8d8d8d;
+	padding:0 14px 0 8px;
+}
+.drmumber-left a.te{
+	display: inline-block;
+	background: #d9b39b;
+	color:#fff;
+	padding:0 10px;
+	height:20px;
+	line-height: 20px;
+}
+.drmumber-left a:first-child{
+	background: none;
+}
+.drmumber-left a.te:hover{
+	background:#C57D5C;
+}
+.f1{
+	float:left;
+}
+.drmumber-left i img{
+	vertical-align: middle;
+}
+.drmumber-left i{
+	padding-right:0;
+	margin-left:15px;
+	color:#8d8d8d;
+	font:400 12px/20px "";
+}
+.help-right{
+	padding-left: 30px;
+	padding-right: 0;
+}
+.help-right span{
+	display: inline-block;
+	background: no-repeat right center;
+}
+.help-right span img{
+	margin-top:-2px;
+}
+.dr_passprt-h{
+	padding-bottom: 10px;
+}
+#lunbo{
+	width:2000px;
+	height:566px;
+	position: relative;
+	height:auto;
+}
+#lunbo img{
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+#lunbo img:first-child{
+	
+}
+#lunbo img:last-child{
+	z-index:1;
+}
+.dr_passprt{
+	position: absolute;
+	top:104px;
+	left:50%;
+	margin-left: 110px;
+	background:#fff;
+	width:310px;
+	height:380px;
+	border:1px solid #e4e6e8;
+	z-index: 1000;
+	overflow:hidden;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+
+#lunbo{
+	width:100%;
+	height:620px;
+}
+.dr_formTabTitle li{
+	width:49%;
+	height:46px;
+	text-align: center;
+	line-height: 46px;
+	float:left;
+}
+.dr_formTabTitle li.dr_left{
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background:#fff;
+	color: #c67c59;
+	font-size: 14px;
+	cursor: pointer;
+}
+.dr_formTabTitle li.dr_right{
+	float:right;
+	border-left: 1px solid #d2d5d7;
+	border-bottom: 1px solid #d2d5d7;
+	background:#f5f5f5;
+	color: #626262;
+	font-size: 14px;
+	cursor: pointer;
+}
+.dr_form{
+	width:254px;
+	height:265px;
+	margin:0 auto;
+	margin-top:10px;
+	overflow: hidden;
+	display: block;
+}
+.dr_form1{
+	width:254px;
+	height:265px;
+	margin:0 auto;
+	margin-top:10px;
+	overflow: hidden;
+	display: none;
+}
+.dr_form1 .images1{
+	display: block;
+	border:0;
+	margin-top:10px;
+	z-index: 1000;
+}
+input{
+	outline: none;
+}
+input.txt{
+	display: block;
+	width:208px;
+	height:36px;
+	border:1px solid #e6e6e6;
+	border-radius: 4px;
+	margin-top:12px;
+	line-height: 38px;
+	padding-left:38px;
+	color:#666;
+}
+.ico-phone{
+	background:url(../img1/ico-uinput.png) no-repeat 14px -60px;
+}
+.ico-email{
+	background:url(../img1/ico-uinput.png) no-repeat 12px -132px;
+}
+.ico-pwo{
+	background:url(../img1/ico-uinput.png) no-repeat 12px -24px;
+}
+.inputCode{
+	float:left;
+	width:92px;
+	margin-top:12px;
+	height:36px;
+	border-radius: 4px;
+	border:1px solid #e6e6e6;
+	line-height: 38px;
+	padding-left:38px;
+}
+.ico-send{
+	background:url(../img1/ico-uinput.png) no-repeat 11px -96px;
+}
+.getCodeBtn{
+	float:left;
+	width:105px;
+	height:40px;
+	text-align:center;
+	font:12px/40px "";
+	background:url(../img1/getCodeBtn.png) no-repeat;
+	margin:10px 0 0 11px;
+	color:#c57d5c;
+	border:none;
+}
+.getCodeBtn:hover{
+	color:#d49e85;
+	background-position: 0 -40px;
+}
+.checkTerms{
+	margin-top:12px;
+	font-size: 12px;
+	color:#888;
+}
+.checkTerms input{
+	margin-right:4px;
+	vertical-align:middle;
+}
+.checkTerms a{
+	color:#c57d5c;
+}
+.checkTerms a:hover{
+	color:#d49e85;
+}
+.dr_Btns{
+	width:254px;
+	margin:0 auto;
+}
+.dr_Btns input{
+	width:254px;
+	height:38px;
+	margin-top:-15px;
+	border-radius: 4px;
+}
+.dr_Btns .colorBtn{
+	border:1px solid #c57d5c;
+	background: #c57d5c;
+	color:#fff;
+}
+.dr_Btns .colorBtn:hover{
+	background:#d49e85 ;
+}
+.loginLink{
+	margin-top:12px;
+	font-size: 12px;
+	text-align: right;
+}
+.regOtherLogin{
+	float:left;
+	padding:0;
+	margin:0;
+	display: inline-block;
+	text-align: left;
+	margin-left:28px;
+}
+.regOtherLogin a{
+	float:left;
+	display: inline-block;
+	width:21px;
+	height:16px;
+	background:url(../img1/ico-otherLogin.png) no-repeat;
+	margin-left:16px;
+}
+.regOtherLogin a:first-child{
+	margin-left: 0;
+}
+a.qqdl{
+	background-position: 0 0;
+}
+a.wxdl{
+	background-position: -42px 0;
+}
+a.wbdl{
+	background-position: -87px 0;
+}
+a.zfbdl{
+	background-position:-130px 0;
+}
+a.qqdl:hover{
+	background-position: 0 -27px;
+}
+a.wxdl:hover{
+	background-position: -42px -27px;
+}
+a.wbdl:hover{
+	background-position: -87px -27px;
+}
+a.zfbdl:hover{
+	background-position: -130px -27px;
+}
+.loginLink .te1{
+	color:#999;
+	margin-right:31px;
+	font-family: "微软雅黑";
+}
+.loginLink .te1:hover{
+	color:#C57D5C;
+}

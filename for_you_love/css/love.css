@@ -1,0 +1,171 @@
+.margin1{
+	width:1000px;
+	margin:0 auto;
+}
+.dring_break{
+	height:70px;
+	margin-left:9px;
+	color:#666;
+	line-height: 70px;
+	font-size: 14px;
+}
+.dr_pink{
+	background:repeat #f6efef;
+	height:2545px;
+	margin-bottom: 54px;
+}
+.lookHistory{
+	width:230px;
+	height:30px;
+	float:right;
+	margin-top: 40px;
+}
+.lookHisTitle{
+	position: relative;
+	font:12px/30px "";
+	text-align: center;
+	background: #dbc7ba;
+	color:#666;
+}
+.lookHisTitle i.adornL{
+	left:0;
+}
+.lookHisTitle i{
+	position: absolute;
+	width:7px;
+	height:7px;
+	bottom: -7px;
+	background: url(../img2/icon-adorn.png) no-repeat;
+}
+.lookHisTitle i.adornR{
+	right:0;
+	background-position: 0 -7px;
+}
+.starLists{
+	float:left;
+	width:750px;
+	font-family: "SimSun";
+	margin-top: 40px;
+}
+.pagin{
+	margin-bottom: 10px;
+	text-align: right;
+	font:12px/18px "";
+}
+.pagin a.nextPage{
+	width:30px;
+	height:18px;
+	float:right;
+	background: #dbc7ba url(../img2/ico-pagin.png) no-repeat;
+	margin-left:10px;
+	background-position: center 4px;
+	background-position: center -15px;
+
+}
+.pagin a.prevPage{
+	width:30px;
+	height:18px;
+	float:right;
+	background: #dbc7ba url(../img2/ico-pagin.png) no-repeat;
+	margin-left:10px;
+	background-position: center 4px;
+}
+.pagin span{
+	float:right;
+	margin-right: 10px;
+	color:#666;
+}
+.starList{
+	width:750px;
+	height:1700px;
+}
+.starContent{
+	background:#dbc7ba;
+	position: relative;
+	padding: 25px 30px 25px 26px;
+	min-height: 200px;
+	margin-top:30px;
+}
+.starContent a{
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: #fff;
+	opacity: 0.01;
+}
+#odd{
+	background:#ccc;
+}
+.srarDesc{
+	float:right;
+	width:364px;
+	color:#666;
+	font-size: 14px;
+}
+.srarDesc h3{
+	font-weight: bold;
+	line-height: 26px;
+	margin-top:14px;
+}
+.srarDesc p{
+	font:12px/26px "宋体";
+	height:104px;
+}
+.srarDesc img{
+	display: block;
+	float:left;
+	width:300px;
+	height:200px;
+}
+.dr_sameadvert{
+	width:1000px;
+	height:189px;
+}
+.same_bg-one{
+	position: relative;
+	width:1000px;
+	height:69px;
+	background: url(../img2/sbg1.jpg) repeat-x;
+	padding-bottom: 20px;
+	
+}
+.photo_left{
+	
+}
+.same_mg80{
+	padding-top:235px;
+}
+.same_bg-one img{
+	position: absolute;
+	left:-28px;
+	top:-36px;
+}
+.dr_samesellers-ring{
+	height:330px;
+}
+.dr_samesellers-ring{
+	display: flex;
+	justify-content: space-between;
+}
+.dr_samesellers-ring li{
+	width:240px;
+	height:100%;
+}
+.dr_samesellers-ring li a{
+	display: block;
+	width:240px;
+	height:100%;
+	-moz-border-radius-bottomleft: 30%;
+	overflow: hidden;
+	position: relative;
+}
+.dr_samesellers-ring li a img{
+	width:100%;
+	height:100%;
+}
+.dr_samesellers-ring li a:hover img{
+	transform:scale(1.5,1.5);
+}

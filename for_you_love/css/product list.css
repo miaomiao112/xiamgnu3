@@ -1,0 +1,347 @@
+.margin1{
+	width:1000px;
+	margin:0 auto;
+}
+.dr_break{
+	height:70px;
+}
+.dr_left{
+	float:left;
+}
+.dr_right{
+	float:right;
+	margin-right: 10px;
+	margin-top: 24px;
+}
+.dr_left-l{
+	color:#666;
+	margin-left:9px;
+	height:70px;
+	font-size: 0;
+	line-height: 70px;
+}
+.dr_left-l a{
+	font-size: 14px;
+	padding-left: 6px;
+	color:#666;
+}
+.dr_left-l span{
+	font-size: 14px;
+	padding-left: 6px;
+	color:#666;
+}
+.dr_left-l a:hover{
+	color:#C57D5C;
+}
+.f1{
+	float:left;
+}
+.dr_left-r{
+	margin:26px 0 0 25px;
+}
+.dr_left-r a{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+	padding: 0 24px 0 6px;
+	cursor: pointer;
+	margin-right: 10px;
+	background:url(../img3/close.jpg) no-repeat right center;
+	font:12px/18px "宋体";
+}
+.dr_left-r a:hover{
+	border: 1px solid #C57D5C;
+}
+.fr{
+	float:right;
+}
+.dr_right input{
+	padding:3px 0 3px 4px;
+	width:198px;
+	vertical-align: middle;
+	float:left;
+}
+.dr_right i{
+	display: inline-block;
+	border:1px solid #666;
+	background: #fff;
+	font:12px/24px "";
+	text-align: center;
+	width:73px;
+	height:24px;
+	color:#626262;
+	margin-left: 10px;
+	cursor: pointer;
+	vertical-align: middle;
+	float:left;
+}
+.dr_right i:hover{
+	background:#CDCDCD;
+}
+.dr_right a{
+	float:right;
+	font-size: 12px;
+	color:#bbbaba;
+	margin:6px 8px;
+	vertical-align: middle;
+}
+.dr_right a:hover{
+	color:#dbc7ba;
+}
+.dr_pink{
+	background:#f6efef;
+	overflow: hidden;
+	height:2251px;
+    margin-bottom: 44px;
+}
+.pad{
+	padding-bottom: 76px;
+}
+.drring_highsearch{
+	margin-top: 45px;
+	background: #fff;
+	height:122px;
+}
+.drring_highsearch-same{
+	height:auto;
+	min-height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+	font-size: 0;
+	color:#666;
+	border-top: 1px solid #f6efef;
+}
+.drring_highsearch-same span{
+	font-size: 14px;
+	display: inline-block;
+	width:112px;
+	background: url(../img3/right_line.jpg) no-repeat right center;
+	font-weight: bold;
+}
+.drring_series{
+	width:780px;
+	height:30px;
+	padding-top: 6px;
+	line-height: 28px;
+}
+.drring_series a{
+	font-size: 12px;
+	margin-left: 17px;
+	display: inline-block;
+	color:#666;
+	cursor: pointer;
+}
+.drring_series a:hover{
+	color:#dbc7ba;
+}
+#xz{
+	color:#dbc7ba;
+}
+.drring_highsearch-same .moreSeries{
+	display: inline-block;
+	width:auto;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 3px 16px 3px 5px;
+	line-height: 14px;
+	background: url(../img3/bread_right.png) no-repeat 34px center;
+	cursor: pointer;
+}
+.moreSeries:hover{
+	border: 1px solid #c57d5c;
+	color: #c57d5c;
+}
+.drring_highsearch-same i{
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-right: -48px;
+	background: url(../img3/bottom.png) no-repeat 71px center #dbc7ba;
+	float:right;
+}
+.drring_highsearch-same i:hover{
+	background: url(../img3/bottom.png) no-repeat 71px center #cab7aa;
+}
+.drring_sortall{
+	overflow: hidden;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 15px;
+	margin-top: 30px;
+}
+.drring_sort{
+	font-size: 0;
+	line-height: 30px;
+}
+.ft{
+	float: left;
+	display: inline;
+}
+.drring_sort span{
+	color: #666;
+	vertical-align: middle;
+	font-size: 12px;
+	margin: 0 15px;
+}
+.drring_sort i{
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align:center;
+	background: #fff;
+	color: #666;
+	vertical-align: middle;
+	font-size: 12px;
+	margin: 0 15px;
+}
+.drring_sort i:hover{
+	background: #cab7aa;
+}
+.clearSearch{
+	display: inline-block;
+	color: #c57d5c;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.clearSearch:hover{
+	text-decoration: underline;
+}
+.fpagin{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.pagin{
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 12px;
+}
+.f3{
+	float:right;
+}
+.nextPage{
+	float: right;
+	width: 30px;
+	height: 18px;
+	line-height: 18px;
+	margin-left:10px;
+	background:url(../img3/ico-pagin.png) no-repeat #dbc7ba;
+	background-position: center -15px;
+}
+.prevPage{
+	float: right;
+	width: 30px;
+	height: 18px;
+	line-height: 18px;
+	background:url(../img3/ico-pagin.png) no-repeat #dbc7ba;
+	background-position: center 4px;
+}
+.nextPage:hover{
+	background-color: #cab7aa;
+}
+.prevPage:hover{
+	background-color: #cab7aa;
+}
+
+.pagin span{
+	float: right;
+	margin-right: 10px;
+	color:#666;
+}
+.dring_thing{
+	overflow: hidden;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+.dring_thing li{
+	background: #fff;
+	float: left;
+	width: 320px;
+	height: 460px;
+	text-align:center;
+	margin-left: 20px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.dring_thing img{
+	width:320px;
+	height:320px;
+}
+#lunbo{height: 613px;}
+.dring_thing>li>a{display: block;width: 320px;height: 320px;overflow: hidden;}
+.dring_thing-price {
+    text-align: center;
+    color: #797979;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+ }
+ .dring_thing-word {
+    font-size: 14px;
+    color: #666;
+    font-family: "SimSun";
+    margin-bottom: 10px;
+}
+.dring_thing-button {
+    font-family: "SimSun";
+    font-size: 0;
+    margin-bottom: 14px;
+}
+.dring_thing-button span {
+    color: #dbc7ba;
+    background: #fff;
+    border: 1px solid #dbc7ba;
+    display: inline-block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 4px;
+ }
+ .dring_thing-button a{
+    color: #fff;
+}
+.dring_thing-button i{
+    color: #fff;
+    background: #dbc7ba;
+    display: inline-block;
+	width: 100px;
+	height: 21px;
+	line-height: 20px;
+	text-align:center;
+	font-size: 12px;
+	margin: 0 4px;
+}
+.dring_thing-button span:hover{
+    background: #f2f2f2;
+}
+.dring_thing-button i:hover {
+    background: #cab7aa;
+}
+.dring_thing-sold {
+    font-family: "SimSun";
+}
+.dring_thing-sold span {
+    border-right: 1px solid #d2d2d2;
+    padding-right: 4px;
+    font-size: 12px;
+    color:#666;
+}
+.dring_thing-sold i {
+    padding-left: 6px;
+    color:#666;
+}
+.dring_thing-sold em {
+    color: #c67c59;
+}
+.dring_thing li a:hover img{
+	transform:scale(1.2,1.2);
+	transition:1s linear all;
+}

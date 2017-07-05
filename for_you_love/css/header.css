@@ -1,0 +1,266 @@
+.margin{
+	width:1000px;
+	margin:18px auto;
+	height:134px;
+}
+.dr_logo{
+	position: relative;
+	margin-left:17px;
+	margin-top: 14px;
+}
+.f1{
+	float:left;
+}
+.dr_logo span{
+	position: absolute;
+	bottom:8px;
+	right:-190px;
+	color:#626262;
+	font-size:14px;
+}
+.fr{
+	float:right;
+	display: inline;
+}
+.drmember_sec{
+	margin-top: 6px;
+	margin-left: 14px;
+}
+.dr_member-left{
+	margin-top: 7px;
+}
+.dr_member-left a{
+	display: inline-block;
+	padding:0 15px 0 9px;
+	background: url(../img/hr.png) no-repeat right center;
+	font:12px/20px "";
+	color:#8d8d8d;
+}
+.tel img{
+	vertical-align: middle;
+	border:0;
+}
+.tel{
+	font:12px/20px "";
+	color:#8d8d8d;
+}
+.dr_member-right{
+	position: relative;
+	float:left;
+	width:80px;
+	padding:0 18px 0 10px;
+	font:12px/20px "";
+}
+.dr_member-right li{
+	background:url(../img/bottom.png) no-repeat right center;
+	text-indent: 4px;
+	cursor: pointer;
+	margin-top:6px;
+}
+.dr_member-right li a{
+	padding:0;
+	color:#8d8d8d;
+}
+.dr_member-left i{
+	padding:0 15px 0 9px;
+	background: url(../img/hr.png) no-repeat right center;
+}
+.dr_member-left a:hover{
+	color:#c57d5c;
+}
+.dr_member-right li a:hover{
+	color:#c57d5c;
+}
+.drhaveBottom{
+	background: #fff;
+	position: absolute;
+	top:15px;
+	left:-62px;
+	width:342px;
+	text-align: center;
+	display: none;
+	z-index: 100;
+}
+
+.drwxBottom{
+	width:170px;
+	height:239px;
+	text-align: center;
+	background: url(../img/gzh_ewm.jpg) no-repeat center 30px #fff;
+	margin-left:16px;
+}
+.drapp_dowonload{
+	position: relative;
+}
+.drwxBottom p{
+	padding-top:168px;
+	font:16px/22px "";
+	color:#333;
+	font-family: "microsoft yahei";
+}
+.drappBottom{
+	width:156px;
+	height:239px;
+	background: url(../img2/APP_ewm.jpg) no-repeat center 30px #fff;
+	margin-right:0;
+}
+.drappBottom p{
+	padding-top:168px;
+	font:16px/22px "";
+	color:#333;
+	font-family: "microsoft yahei";
+	text-align: center;
+}
+.drwapBottom{
+	display: none;
+	position: absolute;
+	background:#fff url(../img/wap_ewm.jpg) no-repeat 38px 32px;
+	width:198px;
+	height:239px;
+	top:49px;
+	right:116px;
+	box-shadow: 0 0 1px #eae8ed;
+	z-index: 100;
+}
+.drwapBottom p{
+	padding-top:172px;
+	font:16px/22px "";
+	color:#333;
+	font-family: "microsoft yahei";
+	text-align: center;
+}
+.dr_member-left:hover .drwapBottom{
+	display: block;
+}
+.te:hover +.drhaveBottom{
+	display: block;
+}
+
+.dr_nav:hover .dr_navsuv{
+	display:block;
+}
+.dr_navsuv{
+	z-index: 900;
+}
+
+.drmember_shop{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.drmember_shopAll{
+	position: absolute;
+	float: right;
+	width: 74px;
+	height: 28px;
+	border: 1px solid #fff;
+	margin-left: 12px;
+	right: 73px;
+	top: 19px;
+	color:#666;
+}
+.drmember_shopAll:hover{
+	color:#C57D5C;
+}
+.drmember_gps{
+	float: right;
+	padding-left: 16px;
+	background: url(../img/ico-gps.png) no-repeat left center;
+	color: #bf967c;
+	margin-right: 177px;
+	margin-top:21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dr_navbk{
+	background: #797979;
+	height:50px;
+}
+.dr_nav{
+	height:50px;
+}
+.dr_nav li:first-child{
+	margin-left:28px;
+}
+.dr_nav li{
+	float:left;
+	width:152px;
+	text-align:center;
+}
+.dr_nav li a{
+	color:#fff;
+	display: block;
+	font:16px/50px "";
+}
+.dr_nav li a:hover{
+	color:#dbc7ba;
+}
+.dr_navsuv{
+	position: absolute;
+	top:202px;
+	width:1000px;
+	height:260px;
+	background:#fff;
+}
+.dr_navsuv-top{
+	position: relative;
+}
+.dr_navsuv-cort{
+	height:260px;
+}
+.dr_navsuv-curture{
+	overflow:hidden;
+}
+.dr_navsuv-curturesame{
+	width:498px;
+	height:230px;
+	text-align: center;
+	padding-top:30px;
+	position: relative;
+}
+.te{
+	z-index: 100;
+}
+.tojoinDR{
+	margin-top:26px;
+	
+}
+.dr_navsuv-curturesame p{
+	font:14px/24px "";
+	color:#5e5e61;
+}
+.dr_nav .tojoinDR a{
+	background: url(../img/black_icon.png) no-repeat right center;
+	display: inline-block;
+	padding-right: 40px;
+	height:48px;
+}
+.dr_navsuv-curturesame:first-child{
+	background: url(../img/subNav_line.png)no-repeat right center;
+}
+#te a{
+	color:#666;
+}
+#te a:hover{
+	color:#C57D5C;
+}
+.dr_navsuv{
+	display:none;
+}
